@@ -54,3 +54,28 @@ h2 {
 h3 {
     font-size: 2.4rem;
 }
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__logo {
+    margin: 3rem 0;
+}
+/* Navigation */
+.nav {
+    background-color: var(--primaryDark);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.nav__link {
+    font-family: var(--mainFont);
+    color: var(--white);
+    font-size: 3rem;
+}
+.nav__link--active,
+.nav__link:hover {
+    color: var(--secondary);
+}
